@@ -15,3 +15,9 @@ export default defineConfig(({ mode }) => {
       }
     };
 });
+
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/sticker/', // ← 子資料夾就寫完整子路徑
+})
